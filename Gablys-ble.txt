@@ -1,0 +1,70 @@
+Services and characteristics
+============================
+
+4f172801-1867-a896-28c0-1bfbc156fa45
+------------------------------------
+
+* 4f172491-1867-a896-28c0-1bfbc156fa45 (WAMI button change)
+
+1 octet, 0x00, Read + Notify
+
+* 4f172492-1867-a896-28c0-1bfbc156fa45
+
+1 octet, 0x00, Read + Notify
+
+
+7b122568-6677-7f8c-f8e9-af0eedb36e3a
+------------------------------------
+
+* 7b121990-6677-7f8c-f8e9-af0eedb36e3a (OTA upgrade)
+
+2 octets, ?, WriteNoResponse
+
+* 7b121991-6677-7f8c-f8e9-af0eedb36e3a (Version Device Firmware)
+
+2 octets: 0x01 0x06, Read
+
+* 7b121992-6677-7f8c-f8e9-af0eedb36e3a (Version String)
+
+N octets: Build date, Read
+
+* 7b121993-6677-7f8c-f8e9-af0eedb36e3a (Error Flag)
+
+4 octets, 0x00 0x00 0x00 0x00, Read + Write
+
+* 7b121994-6677-7f8c-f8e9-af0eedb36e3a (Error Line Device Firmware)
+
+4 octets, 0x00 0x00 0x00 0x00, Read
+
+* 7b121995-6677-7f8c-f8e9-af0eedb36e3a (Error Code Device Firmware)
+
+4 octets, 0x00 0x00 0x00 0x00, Read
+
+* 7b121996-6677-7f8c-f8e9-af0eedb36e3a (File Name Error)
+
+N octets, String, Write
+
+* 7b121997-6677-7f8c-f8e9-af0eedb36e3a (File Name Error)
+
+?, 4 octets, write
+
+* 7b121998-6677-7f8c-f8e9-af0eedb36e3a (Disconnection Error Flag)
+
+1 octet, 0x00, Read
+
+
+
+b0ad1523-99b2-7e1d-fc0d-6d399e1edf02
+------------------------------------
+
+* b0ad1524-99b2-7e1d-fc0d-6d399e1edf02
+
+1 octet, 0x00, Read + Notify
+
+* b0ad1525-99b2-7e1d-fc0d-6d399e1edf02
+
+1 octet, 0x00, Read + Write
+
+* b0ad1526-99b2-7e1d-fc0d-6d399e1edf02
+
+1 octet, 0x00, Read + Write
