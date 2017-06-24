@@ -8,7 +8,7 @@ Follow instructions at http://redbearlab.com/nrf51822-sdk/, use the nRF51 SDK v1
 
 Nordic' SDK version 11.0 is available here: https://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v11.x.x/
 
-Clone the project into the **ble_examples** directory, then into the *gablys/s130/armgcc* folder.
+Clone the project into the **ble_examples** directory, then go into the *gablys/s130/armgcc* folder.
 
 Run the following commands:
 
